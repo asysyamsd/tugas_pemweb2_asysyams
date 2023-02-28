@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form Page</title>
+</head>
+	<style type="text/css">
+		h2 {
+			font-family: sans-serif;
+		}
+
+		body {
+			background-color: mediumslateblue;
+		}
+	</style>
+<body>
+	<h2>Buat Account Baru</h2> <hr>
+	<h4>Sign Up Form</h4>
+
+	<form action="" method="post">
+		<label>First Name :</label> <br><br>
+		<input type="text" name="nama" placeholder="Masukkan nama depan anda"> <br><br>
+
+		<label>Last Name :</label> <br><br>
+		<input type="text" name="nama" placeholder="Masukkan nama belakang anda"> <br><br>
+
+		<label>Gender :</label> <br><br>
+		<input type="radio" name="gender"> Male <br>
+		<input type="radio" name="gender"> Female <br> <br>
+
+		<label>Nationality :</label> <br> <br>
+		<select>
+			<option value="nationality">Indonesia</option>
+			<option value="nationality">Inggris</option>
+			<option value="nationality">Jepang</option>
+			<option value="nationality">Korea</option>
+		</select> <br><br>
+
+		<label>Language Spoken :</label> <br> <br>
+		<input type="checkbox" name="language"> Bahasa Indonesia <br>
+		<input type="checkbox" name="language"> Bahasa Inggris <br>
+		<input type="checkbox" name="language"> Other <br><br>
+
+		<label>Bio :</label> <br> <br>
+		<textarea cols="40" rows="10" placeholder="Masukkan Bio"></textarea> <br>
+
+		<button type="submit" name="submit"><a href="welcome.html">Sign Up</a></button>
+	</form>
+	<br>
+	<a href="index.html">BACK</a>
+</body>
+</html>

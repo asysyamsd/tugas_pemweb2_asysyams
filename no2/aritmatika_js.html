@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Penjumlahan Dengan Javascript</title>
+ 	<style>
+        body {
+            color: lightseagreen;
+            background-color: lightcyan;
+            font-family: sans-serif;
+        }
+        
+        h1 {
+        	text-align: center;
+        }
+    </style>
+	 <script>
+        function penjumlahan() {
+            var bil1 = document.getElementById("bil1").value;
+            var bil2 = document.getElementById("bil2").value;
+            var hasil = parseInt(bil1) + parseInt(bil2);
+
+            document.getElementById("hasil").value = hasil;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Penjumlahan Dengan Menggunakan Javascript</h1><hr><br>
+
+    Angka 1 : <input type="text" id="bil1"><br><br>
+    Angka 2 : <input type="text" id="bil2"><br><br>
+    Hasilnya: <input type="text" id="hasil"><br><br>
+    <button onclick="penjumlahan()">+</button>
+</body>
+</html>
